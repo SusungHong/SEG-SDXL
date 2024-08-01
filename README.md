@@ -2,7 +2,7 @@
 
 | **SEG Paper** | **SEG** | **SEG+ControlNet** |
 |----------------------|----------------------|----------------------|
-| [![Open In ArXiv](https://img.shields.io/badge/arXiv-2210.00939-%23B31B1B)]() | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SusungHong/seg_private/blob/master/sdxl_seg.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SusungHong/seg_private/blob/master/sdxl_controlnet_seg.ipynb) |
+| [![Open In ArXiv](https://img.shields.io/badge/arXiv-0000.00000-%23B31B1B)]() | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SusungHong/seg_private/blob/master/sdxl_seg.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SusungHong/seg_private/blob/master/sdxl_controlnet_seg.ipynb) |
 
 
 Official implementation of [Smoothed Energy Guidance: Guiding Diffusion Models with Reduced Energy Curvature of Attention]().

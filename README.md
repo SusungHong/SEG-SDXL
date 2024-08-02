@@ -2,10 +2,10 @@
 
 | **SEG Paper** | **SEG** | **SEG+ControlNet** |
 |----------------------|----------------------|----------------------|
-| [![Open In ArXiv](https://img.shields.io/badge/arXiv-0000.00000-%23B31B1B)]() | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SusungHong/seg_private/blob/master/sdxl_seg.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SusungHong/seg_private/blob/master/sdxl_controlnet_seg.ipynb) |
+| [![Open In ArXiv](https://img.shields.io/badge/arXiv-2408.00760-%23B31B1B)](https://arxiv.org/abs/2408.00760) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SusungHong/seg_private/blob/master/sdxl_seg.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SusungHong/seg_private/blob/master/sdxl_controlnet_seg.ipynb) |
 
 
-Official implementation of [Smoothed Energy Guidance: Guiding Diffusion Models with Reduced Energy Curvature of Attention]().
+Official implementation of [Smoothed Energy Guidance: Guiding Diffusion Models with Reduced Energy Curvature of Attention](https://arxiv.org/abs/2408.00760).
 
 <p align="center">
   <img src="figures/Teaser.jpg" width="90%">
@@ -20,7 +20,7 @@ Official implementation of [Smoothed Energy Guidance: Guiding Diffusion Models w
 - Allows continuous control of the original and maximally attenuated curvature of the energy landscape behind self-attention
 - Introduces a query blurring method, equivalent to blurring the entire attention weights without significant computational cost
 
-Please check **[our paper]()** for details.
+Please check **[our paper](https://arxiv.org/abs/2408.00760)** for details.
 
 ## 🔍 Comparison with other works
 
@@ -93,10 +93,10 @@ This project builds upon the excellent work of:
 If you use Smoothed Energy Guidance in your research or projects, please cite the following:
 
 ```bibtex
-@article{hong2022improving,
-  title={Improving Sample Quality of Diffusion Models Using Self-Attention Guidance},
-  author={Hong, Susung and Lee, Gyuseong and Jang, Wooseok and Kim, Seungryong},
-  journal={arXiv preprint arXiv:2210.00939},
-  year={2022}
+@article{hong2024smoothed,
+  title={Smoothed Energy Guidance: Guiding Diffusion Models with Reduced Energy Curvature of Attention},
+  author={Hong, Susung},
+  journal={arXiv preprint arXiv:2408.00760},
+  year={2024}
 }
 ```

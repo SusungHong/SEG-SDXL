@@ -1411,7 +1411,7 @@ class StableDiffusionXLSEGPipeline(
                     
                     replace_processor = SEGCFGSelfAttnProcessor(blur_sigma=seg_blur_sigma, do_cfg=self.do_classifier_free_guidance)
 
-                    if(self.seg_applied_layers_index):
+                    if self.seg_applied_layers_index:
                         drop_layers = self.seg_applied_layers_index
                         for drop_layer in drop_layers:
                             layer_number = int(drop_layer[1:])
@@ -1428,7 +1428,7 @@ class StableDiffusionXLSEGPipeline(
                                 raise ValueError(
                                     f"Invalid layer index: {drop_layer}. Available layers: {len(down_layers)} down layers, {len(mid_layers)} mid layers, {len(up_layers)} up layers."
                                 )
-                    elif(self.seg_applied_layers):
+                    elif self.seg_applied_layers:
                         drop_full_layers = self.seg_applied_layers
                         for drop_full_layer in drop_full_layers:
                             try:
@@ -1574,7 +1574,7 @@ class StableDiffusionXLSEGPipeline(
 
         #Change the attention layers back to original ones after SEG was applied
         if self.do_seg:
-            if(self.seg_applied_layers_index):
+            if self.seg_applied_layers_index:
                 drop_layers = self.seg_applied_layers_index
                 for drop_layer in drop_layers:
                     layer_number = int(drop_layer[1:])
@@ -1591,7 +1591,7 @@ class StableDiffusionXLSEGPipeline(
                         raise ValueError(
                             f"Invalid layer index: {drop_layer}. Available layers: {len(down_layers)} down layers, {len(mid_layers)} mid layers, {len(up_layers)} up layers."
                         )
-            elif(self.seg_applied_layers):
+            elif self.seg_applied_layers:
                             drop_full_layers = self.seg_applied_layers
                             for drop_full_layer in drop_full_layers:
                                 try:

@@ -1,5 +1,4 @@
-# Smoothed Energy Guidance for SDXL
-## NeurIPS 2024
+# Smoothed Energy Guidance for SDXL (NeurIPS 2024)
 
 | **SEG Paper** | **SEG** | **SEG+ControlNet** |
 |----------------------|----------------------|----------------------|
